@@ -1,0 +1,142 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+    background-color: #63b7af;
+    color:#fff;
+
+}
+h1{
+    font-family: 'Vollkorn', serif;
+    font-size: 3.3rem;
+}
+
+p{
+    font-size: 1.1rem;
+}
+.navbar-brand{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.container-fluid{
+    padding: 3% 13% 7%;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 10px;
+}
+.nav-link{
+    font-size: 1.2rem;
+
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+/*Intro-Image*/
+.intro-img{
+    width:430px;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+/*Section 2*/
+#features{
+    padding:7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.icons{
+    margin-bottom: 40px;
+    color: palevioletred;
+    font-size: 60px;
+
+}
+.des{
+    font-size: smaller;
+    color: darkgray;
+}
+.adj{
+    text-align: center;
+    padding: 5%;
+
+}
+.icons:hover{
+    color: #ff1493;
+}
+h2{
+    font-family:'Montserrat';
+    font-size: 2.5rem;
+
+}
+h3{
+    font-weight: bold;
+}
+.gif{
+    position: relative;
+
+}
+/*Testimonials Section*/
+#testimonials{
+    text-align: center;
+    background-color: #ff9595;
+    color: whitesmoke;
+    padding:7% 15%;
+
+}
+
+#press{
+    text-align: center;
+    background-color:#ff9595;
+    padding-bottom: 3%;
+}
+.press-img{
+    width: 15%;
+    padding: 20px 20px 50px;
+}
+.testimonial-image{
+    width: 40%;
+    border-radius: 100%;
+    margin: 30px;
+}
+/*Pricing Section*/
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+.pricing-column{
+    padding:3% 2%;
+}
+@media (max-width: 1260px){
+    .intro-img{
+        width:330px;
+        transform: rotate(0);
+        position: static;
+    }
+    #title{
+        text-align: center;
+    }
+}
+#cta{
+    background-color: #ff9595;
+    text-align: center;
+    padding:7% 15%;
+
+}
+.header{
+    font-size: 2.8rem;
+    color: white;
+}
+
+.social-icon{
+    font-size: 18px;
+    margin:20px 10px;
+}
+#footer{
+    padding:7% 15%;
+    text-align: center;
+}
+
